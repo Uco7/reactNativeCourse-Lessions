@@ -7,7 +7,7 @@ import Spacer from '../../components/Spacer'
 
 const Book = () => {
   return (
-    <ThemedView style={styles.container}>
+    <ThemedView style={styles.container}>    
       <TextTheme style={styles.title}>Book Page</TextTheme>
       <Link href="/">Go to Home</Link>  
       <Spacer height={20}/>                                                            
